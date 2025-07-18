@@ -28,7 +28,7 @@ Este projeto é um portfólio completo de arquitetura moderna na AWS, com deploy
 - **Deploy:** Docker Compose, imagens versionadas no ECR, auto-clone do GitHub na inicialização da EC2.
 - **Automação:** Health check, HTTPS, domínio customizado, deploy 100% automatizado.
 
-## 🖼️ Prints para Portfólio
+## 🖼️ Prints
 
 ### 1. Tela principal
 ![Tela principal](./prints/capa.png)
