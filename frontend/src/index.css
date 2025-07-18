@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+  .main-content {
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+  .card {
+    padding: 10px !important;
+    font-size: 0.95rem !important;
+  }
+  table {
+    font-size: 0.9rem !important;
+  }
+  h1, h3, h4 {
+    font-size: 1.2rem !important;
+  }
+  input[type="file"], button {
+    font-size: 1rem !important;
+    padding: 10px !important;
+  }
+  .footer {
+    font-size: 0.9rem !important;
+    padding: 10px !important;
+  }
+} 

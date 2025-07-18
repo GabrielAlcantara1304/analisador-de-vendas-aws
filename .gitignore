@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+.env
+.venv/
+venv/
+.env.*
+
+# FastAPI
+instance/
+
+# Node/React
+node_modules/
+build/
+dist/
+.npm/
+.yarn/
+.yarnrc
+*.log
+
+# Docker
+*.tar
+*.img
+*.container
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.backup
+*.tfvars
+
+# Logs
+*.log
+logs/
+
+# Outros arquivos temporários
+*.bak
+*.tmp
+*.orig
+
+# Arquivos de backup do sistema
+*~
+
+# Arquivos de configuração do sistema
+.DS_Store 

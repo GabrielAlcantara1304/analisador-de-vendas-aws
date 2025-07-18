@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  backend:
+    image: 406951616480.dkr.ecr.us-east-1.amazonaws.com/analisador-backend
+    environment:
+      - BUCKET_NAME=gabriel-datalake-vendas
+      - AWS_REGION=us-east-1
+    ports:
+      - "8000:80"
+    volumes:
+      - ~/.aws:/root/.aws:ro
+  frontend:
+    image: 406951616480.dkr.ecr.us-east-1.amazonaws.com/analisador-frontend
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=/api
+    depends_on:
+      - backend
+    # Proxy para backend
+    extra_hosts:
+      - "host.docker.internal:host-gateway" 

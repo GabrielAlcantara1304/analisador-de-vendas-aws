@@ -1,0 +1,4 @@
+data,produto,quantidade,preco,regiao
+2025-06-01,Notebook,3,3500,Sudeste
+2025-06-01,Smartphone,5,2000,Norte
+2025-06-02,Tablet,2,1800,Sul
