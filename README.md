@@ -1,5 +1,21 @@
 # Analisador de Vendas AWS
 
+## O que esta aplicação faz?
+
+O **Analisador de Vendas AWS** é uma solução completa para análise e visualização de dados de vendas, projetada para ambientes modernos de nuvem. A aplicação permite que usuários façam upload de arquivos CSV contendo dados de vendas, que são processados automaticamente por serviços AWS (como Lambda). Após o processamento, relatórios detalhados são gerados e disponibilizados para consulta e download através de uma interface web profissional e responsiva.
+
+Principais funcionalidades:
+- Upload seguro de arquivos CSV de vendas
+- Processamento automatizado dos dados na AWS
+- Geração de relatórios analíticos por região, período, produto, etc.
+- Visualização dos relatórios em dashboards modernos
+- Download dos relatórios em diversos formatos
+- Infraestrutura provisionada automaticamente via Terraform (EC2, ALB, S3, Lambda, ECR, Route 53, IAM, VPC)
+- Backend robusto em FastAPI (Python)
+- Frontend moderno em React
+- Deploy automatizado e seguro com Docker Compose
+
+
 ![Capa do Projeto](./prints/capa.png)
 
 ## 🚀 Sobre o Projeto
