@@ -30,20 +30,21 @@ Este projeto é um portfólio completo de arquitetura moderna na AWS, com deploy
 
 ## 🖼️ Prints para Portfólio
 
-### 1. Tela principal (desktop)
-![Tela principal](./prints/tela-principal-desktop.png)
+### 1. Tela principal
+![Tela principal](./prints/capa.png)
 
-### 2. Responsivo no celular
-![Responsivo](./prints/tela-mobile.png)
-
-### 3. Upload de CSV e barra de progresso
+### 2. Upload de CSV e barra de progresso
 ![Upload](./prints/upload-csv.png)
 
-### 4. Relatórios processados
+### 3. Relatórios processados
 ![Relatórios](./prints/relatorios.png)
 
-### 5. AWS Console: ALB, EC2, ECR, S3, Route 53
+### 4. AWS Console: ALB, EC2, ECR, S3, Route 53
 ![AWS Infra](./prints/aws-infra.png)
+![AWS Infra](./prints/aws-infra2.png)
+![AWS Infra](./prints/aws-infra3.png)
+![AWS Infra](./prints/aws-infra4.png)
+![AWS Infra](./prints/aws-infra5.png)
 
 ## 🛠️ Como rodar
 
@@ -78,13 +79,7 @@ cd /opt/analisador-vendas
 docker-compose -f docker-compose.prod.yml up -d
 ```
 
-## 🌐 Acesse em produção
-
-- https://loja-aws.com
-
----
-
-## 💡 Diferenciais para Portfólio
+## 💡 Diferenciais
 
 - Infraestrutura como código (IaC) real, pronta para produção.
 - Deploy automatizado e seguro.
@@ -97,21 +92,7 @@ docker-compose -f docker-compose.prod.yml up -d
 ## 👨‍💻 Autor
 
 Gabriel Alcantara  
-[LinkedIn](https://www.linkedin.com/in/seu-linkedin)  
+[LinkedIn](https://www.linkedin.com/in/gabrielhein6/)  
 [GitHub](https://github.com/GabrielAlcantara1304)
-
----
-
-## 📸 Prints sugeridos para LinkedIn e README
-
-- Tela principal do sistema (desktop)
-- Tela mobile/responsiva
-- Tela de upload de CSV com barra de progresso
-- Tela de relatórios processados
-- Console AWS mostrando ALB, EC2, ECR, S3, Route 53
-- Código do Terraform aberto no VSCode
-- Pipeline de build/push para o ECR (opcional)
-
----
 
 ## ⭐ Dê uma estrela se gostou do projeto!
